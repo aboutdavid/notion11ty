@@ -9,6 +9,20 @@ readTime: "5 min read",
 slug: "why-do-cockroaches-exist",
 description: "Hello and welcome (150 chars or less)",
 ```
+### Table setup
+The code automagically is setup to use this table structure 
+![](https://doggo.ninja/lfdgYE.png)
+
+### env setup
+`NOTION_API_KEY` is an API key for notion, used for fetching posts
+
+`NOTION_API_TABLE` is the table ID, where the post is fetched from
+
+`COOKIE` is for downloading the post images, used with [notion-exporter](https://npm.im/notion-exporter). It's the cookie named "token_v2"
+
+Put it in the root folder and it should work.
+
+![](https://doggo.ninja/HRmLaD.png)
 
 ### What each file does
 
